@@ -34,4 +34,5 @@ If you press on __Search__ on the navbar, you will be redirected to a recipe-sea
 
 # In work ⚙️
 - Design adjustments
+- Login process
 - and more...
