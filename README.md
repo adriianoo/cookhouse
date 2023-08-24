@@ -1,7 +1,7 @@
 # Cookhouse 😃
 
 This __cooking website__ was initially made with the concept of allowing users to save and create their favorite recipes in a personal list.<br> 
-I began the project using basic __HTML, CSS, and JavaScript__.<br> 
+I started the project with using basic __HTML, CSS, and JavaScript__.<br> 
 However, I completely restructured the architecture to incorporate a __login and registration system using the [Express framework](https://expressjs.com/de/)__.
 
 <br />
@@ -32,8 +32,6 @@ You can access the website via __localhost:3000__
 The user will be automatically redirected to create an account and login:
 
 ![image](https://github.com/adriianoo/cookhouse/assets/84389909/70b705f6-789e-45d1-b3cf-480fa8482b88)
-
-<br />
 
 After registration, a user's information is stored in an array including their ID, name, email, and a hashed password.<br>
 (A database is planned in the future for more security)
@@ -76,6 +74,7 @@ Currently not-functional due to changes in the project architecture<br>
 
 ![image](https://github.com/adriianoo/recipes-website/assets/84389909/b48f1278-c7f4-4a6b-b07e-8624a75644f7)
 
+<br />
 
 # Bugs 🪲
 - Every user should see there own recipe list. Currently all users see the same list
