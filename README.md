@@ -19,16 +19,31 @@ Users should be able to:
 <br />
 
 ## Instructions
+_Steps that has to be done after cloning the project_
 
+### Step 1:
+Creating a .env file including a SESSION_SECRET
+
+### Step 2:
+Run following commands:
+```
+npm i express ejs
+```
+```
+npm i --save-dev nodemon dotenv
+```
+
+### Step 3:
 After cloning the project, use following command to get the server started:
-
 ```
 npm run devStart
 ```
+### Step 4:
 You can access the website via __localhost:3000__
 
+<br />
 
-### Screenshot:
+## Screenshots
 The user will be automatically redirected to create an account and login:
 
 ![image](https://github.com/adriianoo/cookhouse/assets/84389909/70b705f6-789e-45d1-b3cf-480fa8482b88)
