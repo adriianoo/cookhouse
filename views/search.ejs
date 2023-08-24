@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>search - cookhouse</title>
+    <link rel="stylesheet" href="/stylesheets/search.css">
+    <link rel="icon" href="/pictures/favicon.ico" type="image/x-icon">
+</head>
+
+<body id="body">
+    <header>
+        <div class="header-logo">
+            <img class="logo" src="../pictures/toque.png" alt="logo">
+            <h2>COOKHOUSE</h2>
+        </div>
+        <nav>
+            <ul class="nav_links">
+                <li><a href="/">Home</a></li>
+                <li><a href="/recipes">Recipes</a></li>
+                <li><a href="/search">Search</a></li>
+                <li>
+                    <form action="/logout?_method=DELETE" method="POST">
+                        <button class="logout-button" type="submit">Logout</button>
+                    </form>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="container">
+        <div class="title">RECIPE FINDER</div>
+        <form class="form">
+            <input type="text" id="search" placeholder="Enter ingredients...">
+        </form>
+        <div id="results"></div>
+    </div>
+
+    <script src="/javascripts/search.js"></script>
+</body>
+
+</html>

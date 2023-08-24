@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>cookhouse</title>
+    <link rel="stylesheet" href="/stylesheets/index.css">
+    <link rel="icon" href="/pictures/favicon.ico" type="image/x-icon"> <!-- bug: icon not shown -->
+</head>
+
+<body id="body">
+    <header id="main-header">
+        <nav>
+            <ul class="nav_links">
+                <li><a href="/">Home</a></li>
+                <li><a href="/recipes">Recipes</a></li>
+                <li><a href="/search">Search</a></li>
+                <li>
+                    <form action="/logout?_method=DELETE" method="POST">
+                        <button class="logout-button" type="submit">Logout</button>
+                    </form>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="container">
+        <div id="content" class="content">
+            <div class="title">
+                <h1>COOKHOUSE.</h1>
+            </div>
+            <p class="paragraph">
+                Be creative and create your own recipes and store them in your list.<br>
+                Or search for recipes via the search function!
+            </p>
+            <button class="learnmore-button">LEARN MORE</button>
+        </div>
+    </div>
+</body>
+
+</html>
