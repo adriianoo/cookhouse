@@ -1,38 +1,86 @@
-# Cooking Website 😃
+# Cookhouse 😃
 
-This __Cooking Landingpage__ is made with plain HTML, CSS and JavaScript
-
-<br />
-
-![image](https://github.com/adriianoo/recipes-website/assets/84389909/888e4ace-cd4b-492a-a295-864405aba1b7)
+This __cooking website__ was initially made with the concept of allowing users to save and create their favorite recipes in a personal list.<br> 
+I began the project using basic __HTML, CSS, and JavaScript__.<br> 
+However, I completely restructured the architecture to incorporate a __login and registration system using the [Express framework](https://expressjs.com/de/)__.
 
 <br />
 
-If you press __Recipes__ on the top right hand side, you will be redirected to _menu.html_ where you can see your list of recipes.
-<br />The design is likely to change with the next commits :)
+## Acceptance Criteria
+
+Users should be able to:
+
+- Successfully register an account and log in
+- Create their own recipes and store them to the personal list
+- Remove recipes from their list
+- Use the edamam API to search for recipes, thereby gaining inspiration
+- Log out of their account
 
 <br />
 
-![image](https://github.com/adriianoo/recipes-website/assets/84389909/8951e6f9-6be0-4eac-ad5c-3d0633c71d7c)
+## Instructions
+
+After cloning the project, use following command to get the server started:
+
+```
+npm run devStart
+```
+You can access the website via __localhost:3000__
+
+
+### Screenshot:
+The user will be automatically redirected to create an account and login:
+
+![image](https://github.com/adriianoo/cookhouse/assets/84389909/70b705f6-789e-45d1-b3cf-480fa8482b88)
 
 <br />
 
-With a click on __Create__, the user can create a recipe by passing the _name_ and _ingredients_ below and then click on __Add__.
+After registration, a user's information is stored in an array including their ID, name, email, and a hashed password.<br>
+(A database is planned in the future for more security)
+
+![image](https://github.com/adriianoo/cookhouse/assets/84389909/71c00643-37ff-4e8e-aa61-03d9d7dbc4f6)
 
 <br />
 
-![image](https://github.com/adriianoo/recipes-website/assets/84389909/3137df4c-a049-4af0-8ede-e1fdc5502204)
+## Website Overview
+
+![image](https://github.com/adriianoo/cookhouse/assets/84389909/29a9ac29-48ed-4d05-acb1-9001166630a2)
+
 
 <br />
 
-If you press on __Search__ on the navbar, you will be redirected to a recipe-search, where u can type in ingredients and recipes will be searched via an API and displayed.
+Clicking on __Recipes__ located at the upper right-hand corner will lead you to _yourList.ejs_, where your recipes will be displayed in the list.
+<br />Design modifications in upcoming commits :)
+
+<br />
+
+![image](https://github.com/adriianoo/cookhouse/assets/84389909/070b0e08-ffb3-44f1-868c-535ed6b54b15)
+
+
+<br />
+
+With a click on __Create Recipe__, the user can create a recipe by passing the _name_ and _ingredients_ below, followed by clicking on __Add__.
+
+<br />
+
+![image](https://github.com/adriianoo/cookhouse/assets/84389909/04b61f7a-8a08-469c-87e0-f1f68bd07a12)
+
+
+<br />
+
+Below is a preview of the potential appearance of the _recipe-search_ in the future.<br>
+Currently not-functional due to changes in the project architecture<br>
+(Screenshot from previous commits)
 
 <br />
 
 ![image](https://github.com/adriianoo/recipes-website/assets/84389909/b48f1278-c7f4-4a6b-b07e-8624a75644f7)
 
 
-# In work ⚙️
+# Bugs 🪲
+- Every user should see there own recipe list. Currently all users see the same list
+- API search not working after revamped project architecture
+
+# Future improvements ⚙️
+- Database instead of array
 - Design adjustments
-- Login process
-- and more...
