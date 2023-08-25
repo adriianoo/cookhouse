@@ -1,0 +1,100 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+body {
+  background-image: url("../../pictures/background.jpg");
+  background-size: cover;
+  -webkit-backdrop-filter: blur(15px);
+          backdrop-filter: blur(15px);
+  background-color: rgba(0, 0, 0, 0.5);
+}
+body .container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  padding: 10px;
+}
+body .container .box {
+  width: 100%;
+  max-width: 540px;
+  padding: 40px 30px 70px;
+  background-color: #121212;
+  box-shadow: 0px 0px 8px 5px rgba(0, 0, 0, 0.4);
+  border-radius: 10px;
+  /*
+  .content {
+      display: flex;
+      width: 100%;
+      height: 50px;
+      font-size: 14px;
+      align-items: center;
+      justify-content: space-between;
+  }
+
+  .content .checkbox {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+  }
+
+  .content input {
+      width: 15px;
+      height: 15px;
+  }
+
+  .content label {
+      color: #222222;
+      user-select: none;
+      padding-left: 5px;
+  }
+  */
+}
+body .container .box h1 {
+  padding-bottom: 20px;
+  color: #fff;
+}
+body .container .box .login-process {
+  display: flex;
+  flex-direction: column;
+}
+body .container .box #email,
+body .container .box #password {
+  padding: 10px;
+  margin-bottom: 10px;
+  background-color: #303030;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+}
+body .container .box .login-button {
+  padding: 10px 20px;
+  font-weight: bold;
+  background-color: #4ea9ff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+body .container .box .login-button:hover {
+  background-color: #339DFF;
+}
+body .container .box .signup-link {
+  color: #fff;
+  font-size: 14px;
+  margin-top: 40px;
+  text-align: center;
+}
+body .container .box .signup-link a,
+body .container .box .pass-link a {
+  color: #4ea9ff;
+  text-decoration: none;
+}
+body .container .box .signup-link a:hover,
+body .container .box .pass-link a:hover {
+  text-decoration: underline;
+}/*# sourceMappingURL=login.css.map */
