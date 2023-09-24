@@ -1,6 +1,5 @@
 # Cookhouse 😃
 
-This __cooking website__ was initially made with the concept of allowing users to save and create their favorite recipes in a personal list.<br> 
 I started the project with using basic __HTML, CSS, and JavaScript__.<br> 
 However, I completely restructured the architecture to incorporate a __login and registration system using the [Express framework](https://expressjs.com/de/)__.
 
@@ -11,9 +10,7 @@ However, I completely restructured the architecture to incorporate a __login and
 Users should be able to:
 
 - Successfully register an account and log in
-- Create their own recipes and store them to the personal list
-- Remove recipes from their list
-- Use the edamam API to search for recipes, thereby gaining inspiration
+- Use the search function to look up recipes
 - Log out of their account
 
 <br />
@@ -32,43 +29,22 @@ After registration, a user's information is stored in an array including their I
 
 ## Website Overview
 
-![image](https://github.com/adriianoo/cookhouse/assets/84389909/29a9ac29-48ed-4d05-acb1-9001166630a2)
+![image](https://github.com/adriianoo/cookhouse/assets/84389909/8dd55dfa-e1eb-4470-a396-5ecedcc1d03f)
 
 
 <br />
 
-Clicking on __Recipes__ located at the upper right-hand corner will lead you to _yourList.ejs_, where your recipes will be displayed in the list.
-<br />Design modifications in upcoming commits :)
+When you click on the 'search' option in the navigation bar, you will be redirected to a page where you can search for recipes by entering a keyword like 'rice'.
+
+![image](https://github.com/adriianoo/cookhouse/assets/84389909/b7deec54-2b15-4a94-b1b7-3e3843515bed)
 
 <br />
 
-![image](https://github.com/adriianoo/cookhouse/assets/84389909/070b0e08-ffb3-44f1-868c-535ed6b54b15)
+If you click on 'Get Recipe', a popup will appear containing all the instructions for the recipe, along with a link to a corresponding YouTube video.
 
-
-<br />
-
-With a click on __Create Recipe__, the user can create a recipe by passing the _name_ and _ingredients_ below, followed by clicking on __Add__.
+![image](https://github.com/adriianoo/cookhouse/assets/84389909/2d79f0b8-be44-4c9b-9dd3-64f3eaa6ec8a)
 
 <br />
-
-![image](https://github.com/adriianoo/cookhouse/assets/84389909/04b61f7a-8a08-469c-87e0-f1f68bd07a12)
-
-
-<br />
-
-Below is a preview of the potential appearance of the _recipe-search_ in the future.<br>
-Currently not-functional due to changes in the project architecture<br>
-(Screenshot from previous commits)
-
-<br />
-
-![image](https://github.com/adriianoo/recipes-website/assets/84389909/b48f1278-c7f4-4a6b-b07e-8624a75644f7)
-
-<br />
-
-# Bugs 🪲
-- Every user should see there own recipe list. Currently all users see the same list
-- API search not working after revamped project architecture
 
 # Future improvements ⚙️
 - Database instead of array
