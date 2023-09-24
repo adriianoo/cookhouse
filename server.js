@@ -74,10 +74,6 @@ app.get('/search', (req, res) => {
     res.render("search.ejs")
 })
 
-app.get('/recipes', (req, res) => {
-    res.render("yourList.ejs")
-})
-
 app.get('/login', checkNotAuthenticated, (req, res) => {
     res.render("login.ejs")
 })
