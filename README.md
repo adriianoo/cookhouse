@@ -40,11 +40,6 @@ When you click on the 'search' option in the navigation bar, you will be redirec
 
 <br />
 
-If you click on 'Get Recipe', a popup will appear containing all the instructions for the recipe, along with a link to a corresponding YouTube video.
-
-![image](https://github.com/adriianoo/cookhouse/assets/84389909/2d79f0b8-be44-4c9b-9dd3-64f3eaa6ec8a)
-
-<br />
 
 # Future improvements ⚙️
 - Database instead of array
