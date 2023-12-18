@@ -34,13 +34,6 @@ After registration, a user's information is stored in an array including their I
 
 <br />
 
-When you click on the 'search' option in the navigation bar, you will be redirected to a page where you can search for recipes by entering a keyword like 'rice'.
-
-![image](https://github.com/adriianoo/cookhouse/assets/84389909/b7deec54-2b15-4a94-b1b7-3e3843515bed)
-
-<br />
-
 
 # Future improvements ⚙️
 - Database instead of array
-- Design adjustments
